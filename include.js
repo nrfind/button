@@ -1,4 +1,4 @@
 require('./config');
 require('./util');
 
-require('./Empire');
+import('./Empire');
