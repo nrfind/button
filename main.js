@@ -1,4 +1,6 @@
-require('./include');
+require('config');
+require('util');
+const Empire = require('Empire');
 
 global.Empire = new Empire();
 
