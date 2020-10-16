@@ -3,7 +3,7 @@ class Empire {
     //init mem
 
     this.shard = Game.shard.name;
-    this.cities = _.filter(Game.rooms, r => r && r.controller && r.controller.my);
+    this.cities = _.filter(Game.rooms, r => r && r.controller && r.controller.my).map(r => r.name);
     console.log("Creating a new empire object on " + this.shard + " containing " + this.cities.length + " cities.");
     console.log(JSON.stringify(global.BOOST_COMPONENTS));
   }
