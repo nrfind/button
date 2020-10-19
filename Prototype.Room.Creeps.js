@@ -3,4 +3,5 @@ Room.Prototype.ProcessCreeps =
     // this.ProcessAcolytes();
     // this.ProcessBuilders();
     // this.ProcessDefenders();
+    return 0;
   }

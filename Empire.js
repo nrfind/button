@@ -21,7 +21,7 @@ class Empire {
        // city.ProcessRoomDefense();
        // city.ProcessTowers();
        // city.ProcessRoomHQ();
-       city.ProcessCreeps();
+       //city.ProcessCreeps();
        // city.ProcessJobs();
        // city.ProcessWarRoom();
        // city.ProcessExpansion();
