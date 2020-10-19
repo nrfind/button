@@ -15,6 +15,23 @@ class Empire {
      let city = Game.rooms[c];
      if(city) {
        console.log(city.name);
+       city.ProcessSources();
+       // city.ProcessMinerals();
+       // city.ProcessContainers();
+       // city.ProcessRoomDefense();
+       // city.ProcessTowers();
+       // city.ProcessRoomHQ();
+       city.ProcessCreeps();
+       // city.ProcessJobs();
+       // city.ProcessWarRoom();
+       // city.ProcessExpansion();
+       // city.ProcessTombstones();
+       // city.ManageInventory();
+       // city.ProcessLabs();
+       // city.ProcessNuker();
+       // city.ProcessPowerSpawn();
+       // city.ObserverRoomQueue();
+       // city.ProcessObserver();
      }
    })
   }

@@ -1,6 +1,7 @@
 require('config');
 require('util');
 require('constants');
+require('Prototype.Room.Sources');
 const Empire = require('Empire');
 
 global.Empire = new Empire();
