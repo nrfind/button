@@ -1,4 +1,4 @@
-Room.Prototype.ProcessCreeps =
+Room.prototype.ProcessCreeps =
   function() {
     // this.ProcessAcolytes();
     // this.ProcessBuilders();
