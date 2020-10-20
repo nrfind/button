@@ -1,7 +1,6 @@
 class Market {
   constructor() {
     console.log("Refreshing Market Prices");
-    this = {};
     RESOURCES_ALL.forEach(r => {
       const tryMkt = Game.market.getHistory(r);
       if(tryMkt && tryMkt.length > 0) {
