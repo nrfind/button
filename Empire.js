@@ -14,8 +14,8 @@ class Empire {
    this.cities.forEach(c => {
      let city = Game.rooms[c];
      if(city) {
-       console.log(city.name);
-       city.ProcessSources();
+       //console.log(city.name);
+       //city.ProcessSources();
        // city.ProcessMinerals();
        // city.ProcessContainers();
        // city.ProcessRoomDefense();
